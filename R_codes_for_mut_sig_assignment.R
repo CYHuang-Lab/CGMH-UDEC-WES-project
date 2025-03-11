@@ -19,7 +19,7 @@ library(ICAMS)
 library(cosmicsig) 
 
 download.file("https://github.com/CYHuang-Lab/CGMH-UDEC-WES-project/blob/main/CGMH-UDEC-catSBS96.csv")
-download.file("https://github.com/CYHuang-Lab/CGMH-UDEC-WES-project/blob/main/CGMH-UDEC-catSBS96.csv")
+download.file("https://github.com/CYHuang-Lab/CGMH-UDEC-WES-project/blob/main/CGMH-UDEC-catID.csv")
 
 catSBS96 <- ReadCatalog("CGMH-UDEC-catSBS96.csv") %>% 
   as.catalog(ref.genome = "GRCh38", region = "genome", catalog.type = "counts")
